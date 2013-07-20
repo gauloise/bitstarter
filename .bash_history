@@ -1,23 +1,3 @@
-Password for 'https://gauloise@github.com':
-To https://github.com/gauloise/bitstarter
-   8eab772..6d0ec9b  master -> master
-[ubuntu@ip-172-31-37-141:~/bitstarter]$
-Broadcast message from root@ip-172-31-37-141
-        (unknown) at 12:58 ...
-The system is going down for power off NOW!
-Connection to 54.213.38.4 closed by remote host.
-Connection to 54.213.38.4 closed.
-gauloise@Parsifal /cygdrive/c/users/gauloise/workspace
-$ ssh -i current2.pem ubuntu@54.213.72.188
-The authenticity of host '54.213.72.188 (54.213.72.188)' can't be established.
-ECDSA key fingerprint is d5:c0:96:fb:5d:b6:c8:2f:38:99:66:67:af:d0:4a:b2.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '54.213.72.188' (ECDSA) to the list of known hosts.
-Welcome to Ubuntu 12.04.2 LTS (GNU/Linux 3.2.0-40-virtual x86_64)
-
- * Documentation:  https://help.ubuntu.com/
-
-  System information as of Fri Jul 19 13:13:39 UTC 2013
 
   System load:  0.36              Processes:           58
   Usage of /:   11.0% of 7.87GB   Users logged in:     0
@@ -497,4 +477,24 @@ node web.js
 ls
 emacs web.js
 npm install express
+node web.js
+node web.js
+emacs index.html
+emacs index.html
+cat index.html > index.html.bak
+emacs index.html
+emacs index.html.bak
+emacs index.html
+node web.js
+emacs index.html
+node web.js
+emacs index.html
+emacs index.html
+git push origin master
+ls
+git add .
+git commit -m "New index.html"
+git push origin master
+git pull origin master
+emacs index.html
 node web.js
